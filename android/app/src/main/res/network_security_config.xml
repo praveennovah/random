@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <!-- Add trusted anchors if required -->
+        </trust-anchors>
+    </base-config>
+    <debug-overrides>
+        <!-- Allow cleartext traffic for debugging purposes -->
+        <base-config cleartextTrafficPermitted="true" />
+    </debug-overrides>
+</network-security-config>
